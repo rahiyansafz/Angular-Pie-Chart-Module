@@ -1,0 +1,13 @@
+h1 {
+  font-family: Lato;
+  color: white;
+}
+button {
+  display: block;
+  padding: 10px;
+  border-radius: 25px;
+  border: 1px solid gray;
+  text-align: center;
+  margin: 30px;
+  margin-left: 100px;
+}

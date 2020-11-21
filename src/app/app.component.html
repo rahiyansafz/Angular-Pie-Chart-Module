@@ -1,0 +1,45 @@
+<h1>Angular Chart module</h1>
+
+<pie-chart width="200"
+          height="200"
+          [values]="values"
+          [labels]="labels"
+          [colors]="colors"
+          (onClick)="onClick($event)">
+</pie-chart>
+
+<pie-chart width="50"
+          height="50"
+          [values]="values"
+          [labels]="labels"
+          [colors]="colors"
+          [options]="{animation: false}"
+          (onClick)="onClick($event)">
+</pie-chart>
+
+<hbar-chart width="300"
+          height="200"
+          [values]="values"
+          [labels]="labels"
+          [colors]="colors"
+          (onClick)="onClick($event)">
+</hbar-chart>
+
+<hbar-chart width="50"
+          height="40"
+          [values]="values"
+          [labels]="labels"
+          [colors]="colors"
+          [options]="{animation: false}"
+          (onClick)="onClick($event)">
+</hbar-chart>
+
+<vbar-chart width="300"
+          height="200"
+          [values]="values"
+          [labels]="labels"
+          [colors]="colors"
+          (onClick)="onClick($event)">
+</vbar-chart>
+
+<button (click)="update()">Update data</button>

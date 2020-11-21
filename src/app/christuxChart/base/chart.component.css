@@ -1,0 +1,13 @@
+.chart {
+  display: block;
+}
+
+.tip {
+    background-color:black;
+    border:0px solid black;
+    border-radius: 5px;
+    position:fixed;
+    display:none;
+    top:100px;
+}
+
